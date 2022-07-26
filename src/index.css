@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Age, .count{
+  font-size: 40px;
+  margin: 2%;
+}
+
+.Siblings{
+  font-size: 30px;
+  margin: 2%;
+}
+
+.Button{
+  margin: 2%;
+}
+
+button{
+  margin: 2%;
+  background-color: darkblue;
+  color: yellow;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: yellow;
+  color: black;
+  box-shadow: 2px 2px 7px 2px black;
+}
